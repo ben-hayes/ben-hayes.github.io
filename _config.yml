@@ -7,10 +7,10 @@
 
 # Site Settings
 locale                   : "en-GB"
-title                    : "Ben Hayes / PhD Researcher & Electronic Musician"
+title                    : "Ben Hayes / PhD Researcher"
 title_separator          : "-"
 name                     : &name "Ben Hayes"
-description              : &description "PhD Researcher in timbre perception, neural audio synthesis, and deep representation learning. Electronic Musician."
+description              : &description "Timbre perception, neural audio synthesis, and deep representation learning."
 url                      : https://ben-hayes.github.io # the base hostname & protocol for your site e.g. "https://mmistakes.github.io"
 baseurl                  : "" # the subpath of your site, e.g. "/blog"
 repository               : "ben-hayes/ben-hayes.github.io"
