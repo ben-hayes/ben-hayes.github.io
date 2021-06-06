@@ -175,6 +175,16 @@ Being aware of these points can help us communicate better:
                 Chances are, if I'm sharing info about something it's because I'm trying to engage with you, not because I'm trying to imply you don't understand.
             </p>
 
+            <div class="row mt-3">
+                <div class="col-sm mt-3 mt-md-0" style="text-align: center">
+                    <a href="https://bogleech.tumblr.com/post/191000201623/the-neurodivergent-experience-is-thinking-youre"><img class="img-fluid rounded z-depth-1" style="width:60%" src="{{ site.baseurl }}/assets/img/nd_experience.jpg"></a>
+                </div>
+            </div>
+            <div class="caption">
+                The neurodivergent experience. Post by <a href="https://bogleech.tumblr.com/post/191000201623/the-neurodivergent-experience-is-thinking-youre">bogleech</a>.
+            </div>
+
+
         <h5>example</h5>
         <p class="example">
             Linguistics, phonology, and language genealogy have been recurring <a href="https://www.autism.org.uk/advice-and-guidance/topics/behaviour/obsessions/all-audiences">special interests</a> of mine. 
