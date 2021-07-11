@@ -7,6 +7,11 @@ importance: 1
 category: work
 ---
 
+<style>
+.example {
+    color: #999999
+}
+</style>
 
 <div style="margin:auto; text-align:center;">
     <h4>
@@ -35,7 +40,8 @@ In brief, we take a simple sinusoid, $$\cos\omega n$$, and we pass it through a 
 
 $$f(\cos \omega n) = \sum_{k=1}^{\infty} h_k \cos \omega n.$$
 
-This is the principle of *harmonic distortion*, and by designing an appropriate function $$f$$ we can produce any combination of harmonics we require.
+This is the principle of *harmonic distortion*, and by designing an appropriate function $$f$$ we can produce any combination of harmonics we require. 
+<span class="example">Note: this is a big simplification! We are assuming ideal conditions — in practice, aliasing means the resulting signal is often more complex.</span>
 
 If we apply $$f$$ to a more complex signal, $$y[n]$$, we encouter a phenomenon called *intermodulation distortion*, which produces frequencies at $$a\omega_1 \pm b\omega_2, \; \forall a,b \in \mathbb{Z}^+$$, for input frequencies $$\omega_1$$ and $$\omega_2$$.
 This means when $$y[n]$$ is purely harmonic, $$f(y[n])$$ will be too.
