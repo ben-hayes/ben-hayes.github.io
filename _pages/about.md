@@ -20,10 +20,12 @@ social: true  # includes social icons at the bottom of the page
 ---
 
 I am a PhD student in Artificial Intelligence and Music at [Queen Mary University of London](https://www.qmul.ac.uk).
-My research bridges neural audio synthesis, the psychoacoustics of musical timbre, and applications of deep generative models to audio.
+I am researching applications of meta-learning to neural audio synthesis and deep psychoacoustic models of musical timbre.
 I am very grateful to be funded by the [UKRI Centre for Doctoral Training in Artificial Intelligence and Music](https://www.aim.qmul.ac.uk/),
 and am a member of the [Centre for Digital Music](https://c4dm.eecs.qmul.ac.uk/).
 
-Previously, I was Music Lead at the award-winning AI-driven generative music startup [Jukedeck](https://www.linkedin.com/company/jukedeck/about/), who were acquired by [ByteDance](https://www.bytedance.com/en/). I also [make music](https://open.spotify.com/artist/73A1Xo6NzkbRB2EIw3dm6R).
+Previously, I was Music Lead at the award-winning AI-driven generative music startup [Jukedeck](https://www.linkedin.com/company/jukedeck/about/), and was a research intern with [ByteDance](https://www.bytedance.com/en/)'s Speech, Audio & Music Intelligence (SAMI) team. I also [make music](https://open.spotify.com/artist/73A1Xo6NzkbRB2EIw3dm6R).
+
+I am particularly open to collaborations with musicians and artists looking to apply artificial intelligence to their auditory work, real-time/DSP engineers interested in turning neural audio synthesis research into usable tools, and researchers working on related topics.
 
 You can contact me at *b.j.hayes (at) qmul.ac.uk*
