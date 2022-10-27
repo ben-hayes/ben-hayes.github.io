@@ -1,3 +1,38 @@
+@inproceedings{hayes_sinusoidal_2022,
+  abbr      = {arXiv},
+  abstract  = {Sinusoidal parameter estimation is a fundamental task in applications from spectral analysis to time-series forecasting. Estimating the sinusoidal frequency parameter by gradient descent is, however, often impossible as the error function is non-convex and densely populated with local minima. The growing family of differentiable signal processing methods has therefore been unable to tune the frequency of oscillatory components, preventing their use in a broad range of applications. This work presents a technique for joint sinusoidal frequency and amplitude estimation using the Wirtinger derivatives of a complex exponential surrogate and any first order gradient-based optimizer, enabling end to-end training of neural network controllers for unconstrained sinusoidal models.},
+  title     = {Sinusoidal Frequency Estimation by Gradient Descent},
+  booktitle = {arXiv},
+  author    = {Hayes, Ben and and Saitis, Charalampos and Fazekas, George},
+  year      = {2022},
+  address   = {{Online}},
+  selected  = {true},
+  pdf       = {sin_gd.pdf}
+}
+
+@inproceedings{hayes_timbre_2022,
+  abbr      = {ICA},
+  abstract  = {We present timbre.fun, a web-based gamified interactive system where users create sounds in response to semantic prompts (e.g., bright, rough) through exploring a two-dimensional control space that maps nonlinearly to the parameters of a simple hybrid wavetable and amplitude-modulation synthesizer. The current version features 25 semantic adjectives mined from a popular synthesis forum. As well as creating sounds, users can explore heatmaps generated from others’ responses, and fit a classifier (k-nearest neighbors) in-browser. timbre.fun is based on recent work, including by the authors, which studied timbre semantic associations through prompted synthesis paradigms. The interactive is embedded in a digital exhibition on sensory variation and interaction (seeingmusic.app) which debuted at the 2021 Edinburgh Science Festival, where it was visited by 197 users from 21 countries over 16 days. As it continues running online, a further 596 visitors from 35 countries have engaged. To date 579 sounds have been created and tagged, which will facilitate parallel research in timbre semantics and neural audio synthesis. Future work will include further gamifying the data collection pipeline, including leveling-up to unlock new words and synthesizers, and a full open-source release.},
+  title     = {timbre.fun: A gamified interactive system for crowdsourcing a timbre semantic vocabulary},
+  booktitle = {24th International Congress on Acoustics},
+  author    = {Hayes, Ben and and Saitis, Charalampos and Fazekas, George},
+  year      = {2022},
+  address   = {{Gyeongju, South Korea}},
+  selected  = {true},
+  pdf       = {timbre_fun_ica2022.pdf}
+}
+
+@inproceedings{hayes_disembodied_2022,
+  abbr      = {JAES},
+  abstract  = {Disembodied electronic sounds constitute a large part of the modern auditory lexicon, but research into timbre perception has focused mostly on the tones of conventional acoustic musical instruments. It is unclear whether insights from these studies generalise to electronic sounds, nor is it obvious how these relate to the creation of such sounds. In this work, we present an experiment on the semantic associations of sounds produced by FM synthesis with the aim of identifying whether existing models of timbre semantics are appropriate for such sounds. We applied a novel experimental paradigm in which experienced sound designers responded to semantic prompts by programming a synthesiser, and provided semantic ratings on the sounds they created. Exploratory factor analysis revealed a five-dimensional semantic space. The first two factors mapped well to the concepts of luminance, texture, and mass. The remaining three factors did not have clear parallels, but correlation analysis with acoustic descriptors suggested an acoustical relationship to luminance and texture. Our results suggest that further enquiry into the timbres of disembodied electronic sounds, their synthesis, and their semantic associations would be worthwhile, and that this could benefit research into auditory perception and cognition, as well as synthesis control and audio engineering.},
+  title     = {Disembodied Timbres: A Study on Semantically Prompted FM Synthesis},
+  booktitle = {Journal of the Audio Engineering Society},
+  author    = {Hayes, Ben and and Saitis, Charalampos and Fazekas, George},
+  year      = {2022},
+  selected  = {true},
+  pdf       = {disembodied_timbres.pdf}
+}
+
 @inproceedings{hayes_neural_2021,
   abbr      = {ISMIR},
   abstract  = {We present the Neural Waveshaping Unit (NEWT): a novel, lightweight, fully causal approach to neural audio synthesis which operates directly in the waveform domain, with an accompanying optimisation (FastNEWT) for efficient CPU inference. The NEWT uses time-distributed multilayer perceptrons with periodic activations to implicitly learn nonlinear transfer functions that encode the characteristics of a target timbre. Once trained, a NEWT can produce complex timbral evolutions by simple affine transformations of its input and output signals. We paired the NEWT with a differentiable noise synthesiser and reverb and found it capable of generating realistic musical instrument performances with only 260k total model parameters, conditioned on F0 and loudness features. We compared our method to state-of-the-art benchmarks with a multi-stimulus listening test and the Fréchet Audio Distance and found it performed competitively across the tested timbral domains. Our method significantly outperformed the benchmarks in terms of generation speed, and achieved real-time performance on a consumer CPU, both with and without FastNEWT, suggesting it is a viable basis for future creative sound design tools.},
@@ -18,7 +53,7 @@
   author    = {Hayes, Ben and and Saitis, Charalampos and Fazekas, George},
   year      = {2021},
   address   = {{Sheffield, UK}},
-  selected  = {true},
+  selected  = {false},
   pdf       = {icmpc_escom_2021.pdf}
 }
 
@@ -30,7 +65,7 @@
   author    = {Hayes, Ben and Brosnahan, Luke and Saitis, Charalampos and Fazekas, George},
   year      = {2020},
   address   = {{London, UK}},
-  selected  = {true},
+  selected  = {false},
   pdf       = {DMRN_2020_Abstract.pdf}
 }
 
@@ -42,7 +77,7 @@
   author    = {Hayes, Ben and Saitis, Charalampos},
   year      = {2020},
   address   = {{Thessaloniki, Greece (Online)}},
-  selected  = {true},
+  selected  = {false},
   pdf       = {16.Hayes.pdf}
 }
 
@@ -54,7 +89,7 @@
   author    = {Zacharakis, Asterios and Hayes, Ben and Saitis, Charalampos and Pastiadis, Konstantinos},
   year      = {2020},
   address   = {{Thessaloniki, Greece (Online)}},
-  selected  = {true},
+  selected  = {false},
   pdf       = {34.Zacharakis.pdf}
 }
 
