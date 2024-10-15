@@ -26,5 +26,4 @@ _Catecophony_ is a VST3/AU plugin that performs real-time corpus-based concatena
 
 Catecophony is implemented using <a href="https://juce.com/">JUCE</a> augmented with <a href="https://essentia.upf.edu/">Essentia</a> for feature extraction. It searches the grain space quickly in real-time using a <a href="https://en.wikipedia.org/wiki/K-d_tree">k-d tree</a>.
 
-
 <div style="padding:56.25% 0 0 0;position:relative;"><iframe src="https://player.vimeo.com/video/415074832?title=0&byline=0&portrait=0" style="position:absolute;top:0;left:0;width:100%;height:100%;" frameborder="0" allow="autoplay; fullscreen; picture-in-picture" allowfullscreen></iframe></div><script src="https://player.vimeo.com/api/player.js"></script>
