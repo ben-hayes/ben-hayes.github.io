@@ -27,3 +27,4 @@ I am jointly supervised by [Dr Charalampos Saitis](https://comma-lab.github.io) 
 Previously, I was a research scientist intern at [Spotify](https://research.atspotify.com/) (Music Intelligence), [Sony CSL](https://cslmusicteam.sony.fr/) (Music Team), and [Bytedance](https://www.bytedance.com/en/) (Speech, Audio & Music Intelligence), and lead the music team at [Jukedeck](https://en.wikipedia.org/wiki/Jukedeck). I have also worked extensively as a music producer, and was a lecturer in Electronic & Produced Music at the [Guildhall School of Music & Drama](https://www.gsmd.ac.uk/study-with-guildhall/music/principal-study-and-departments/electronic-produced-music) in London.
 
 You can contact me at _b.j.hayes (at) qmul.ac.uk_
+
