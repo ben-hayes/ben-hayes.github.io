@@ -60,11 +60,6 @@ on:
 permissions:
   contents: write
 
-  workflow_dispatch:
-
-permissions:
-  contents: write
-
 jobs:
   deploy:
     # available images: https://github.com/actions/runner-images#available-images
