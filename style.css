@@ -1,0 +1,246 @@
+:root {
+  color-scheme: light dark;
+  --ink: #151515;
+  --paper: #fff;
+  --quiet: #6f6f6f;
+  --rule: #c2c2c2;
+}
+
+@media (prefers-color-scheme: dark) {
+  :root {
+    --ink: #e2e2e2;
+    --paper: #131313;
+    --quiet: #8f8f8f;
+    --rule: #585858;
+  }
+}
+
+* {
+  box-sizing: border-box;
+}
+
+html {
+  -webkit-text-size-adjust: 100%;
+  text-size-adjust: 100%;
+}
+
+body {
+  margin: 0;
+  padding: clamp(1.5rem, 7vw, 6rem) clamp(1.25rem, 7vw, 6rem) 6rem;
+  font: 1rem/1.55 "Helvetica Neue", Helvetica, Arial, sans-serif;
+  color: var(--ink);
+  background: var(--paper);
+}
+
+h1,
+h2,
+h3,
+h4 {
+  margin: 0;
+  font: inherit;
+}
+
+h1,
+h2 {
+  font-weight: 700;
+}
+
+p {
+  margin: 0 0 1em;
+}
+
+a {
+  color: inherit;
+  text-decoration: underline 1px var(--rule);
+  text-underline-offset: 0.2em;
+}
+
+a:hover {
+  text-decoration-color: currentColor;
+}
+
+img {
+  display: block;
+  max-width: 100%;
+  height: auto;
+}
+
+.quiet {
+  color: var(--quiet);
+}
+
+/* Home */
+
+.intro {
+  display: grid;
+  grid-template-columns: minmax(0, 35rem) minmax(0, 22rem);
+  grid-template-areas:
+    "name photo"
+    "bio  photo";
+  grid-template-rows: auto 1fr;
+  column-gap: 5rem;
+  align-items: start;
+}
+
+.intro h1 {
+  grid-area: name;
+  margin-bottom: 1.55rem;
+}
+
+.intro .bio {
+  grid-area: bio;
+}
+
+.intro img {
+  grid-area: photo;
+  margin-top: 0.35rem;
+}
+
+.pubs {
+  max-width: 35rem;
+  margin-top: 4.65rem;
+}
+
+.pubs h2 {
+  margin-bottom: 1.55rem;
+}
+
+.pubs section {
+  display: grid;
+  grid-template-columns: 3.5rem minmax(0, 1fr);
+}
+
+.pubs h3 {
+  color: var(--quiet);
+  font-variant-numeric: tabular-nums;
+}
+
+.pubs ul {
+  margin: 0;
+  padding: 0;
+  list-style: none;
+}
+
+.pubs li {
+  margin-bottom: 1.3rem;
+}
+
+.pubs li span {
+  display: block;
+  color: var(--quiet);
+}
+
+/* Project pages */
+
+.back {
+  margin-bottom: 3.1rem;
+}
+
+.prose > * {
+  max-width: 35rem;
+}
+
+.prose > .wide {
+  max-width: 59rem;
+}
+
+.prose h1 {
+  margin-bottom: 0.25rem;
+}
+
+.prose h2 {
+  margin: 3.1rem 0 1em;
+}
+
+.prose h3 {
+  margin: 2.3rem 0 1em;
+  font-weight: 700;
+}
+
+.prose h4 {
+  margin: 1.55rem 0 0.6rem;
+}
+
+.prose figure {
+  margin: 2.3rem 0;
+}
+
+.prose figcaption {
+  margin-top: 0.75rem;
+  color: var(--quiet);
+}
+
+.prose ol {
+  margin: 0;
+  padding-left: 1.5rem;
+}
+
+.prose ol li {
+  margin-bottom: 0.5em;
+}
+
+.prose sup {
+  line-height: 0;
+}
+
+.prose math {
+  font-size: 1.1em;
+}
+
+.prose math[display="block"] {
+  margin: 1.4em 0;
+  max-width: 100%;
+  overflow-x: auto;
+}
+
+.clips {
+  display: grid;
+  grid-template-columns: repeat(4, minmax(0, 1fr));
+  gap: 1.1rem 1.25rem;
+  margin: 0 0 1.55rem;
+}
+
+.clips.two {
+  grid-template-columns: repeat(2, minmax(0, 1fr));
+}
+
+.clips span {
+  display: block;
+  margin-bottom: 0.25rem;
+  color: var(--quiet);
+}
+
+.clips audio {
+  display: block;
+  width: 100%;
+  height: 2.25rem;
+}
+
+@media (prefers-color-scheme: dark) {
+  .prose figure img {
+    background: #fff;
+  }
+}
+
+@media (max-width: 52rem) {
+  .intro {
+    display: block;
+  }
+
+  .intro img {
+    width: 100%;
+    max-width: 24rem;
+    margin: 0 0 1.55rem;
+  }
+
+  .clips {
+    grid-template-columns: repeat(2, minmax(0, 1fr));
+  }
+}
+
+@media (max-width: 30rem) {
+  .clips,
+  .clips.two {
+    grid-template-columns: minmax(0, 1fr);
+  }
+}
